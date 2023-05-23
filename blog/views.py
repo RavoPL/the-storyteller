@@ -31,3 +31,6 @@ def homepage(request):
 
 def aboutpage(request):
     return render(request, "blog/aboutpage.html", {'title': 'About Page'})
+
+def contactpage(request):
+    return render(request, "blog/contactpage.html", {'title': 'Contact Page'})
