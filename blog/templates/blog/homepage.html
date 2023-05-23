@@ -3,8 +3,22 @@
 {% block content %}
     <h1>The Storyteller Home Page</h1>
     {% for blogpost in blogposts %}
-        <h1>{{ blogpost.title }}</h1>
-        <p>{{ blogpost.author }} | {{ blogpost.date_posted }}</p>
-        <p>{{ blogpost.description }}</p>
+    <!-- Main Content-->
+    <div class="container px-4 px-lg-5 my-4">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <!-- Post preview-->
+            <div class="post-preview">
+              <a href="post.html">
+                <h2 class="post-title">{{ blogpost.title }}</h2>
+                <h4 class="post-subtitle">{{ blogpost.description }}</h4>
+              </a>
+              <p class="post-meta"> Posted by {{ blogpost.author }} on {{ blogpost.date_posted }} </p>
+            </div>
+            <!-- Divider-->
+            <hr class="my-4" />
+          </div>
+        </div>
+      </div>
     {% endfor %}
 {% endblock content %}
