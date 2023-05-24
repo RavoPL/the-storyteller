@@ -9,11 +9,11 @@
           <div class="col-md-10 col-lg-8 col-xl-7">
             <!-- Post preview-->
             <div class="post-preview">
-              <a href="post.html">
+              <a href="#">
                 <h2 class="post-title">{{ blogpost.title }}</h2>
                 <h4 class="post-subtitle">{{ blogpost.description }}</h4>
               </a>
-              <p class="post-meta"> Posted by {{ blogpost.author }} on {{ blogpost.date_posted }} </p>
+              <p class="post-meta"> Posted by {{ blogpost.author }} on {{ blogpost.updated_at | date:"F d, Y" }} </p>
             </div>
             <!-- Divider-->
             <hr class="my-4" />
