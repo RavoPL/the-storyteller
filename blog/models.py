@@ -12,3 +12,6 @@ class Blogpost(models.Model):
     # Sets the time and date of blogpost creation as well as blogpost update
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    # Sets the name of the data models to their respective title
+    def __str__(self):
+        return self.title
