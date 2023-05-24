@@ -5,4 +5,4 @@ from django_summernote.admin import SummernoteModelAdmin
 # Register your models here.
 @admin.register(models.Blogpost)
 class BlogAdmin(SummernoteModelAdmin):
-    summernote_fields = ('description')
+    summernote_fields = ('content')
