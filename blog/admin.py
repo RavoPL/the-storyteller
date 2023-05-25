@@ -24,3 +24,8 @@ class CommentAdmin(admin.ModelAdmin):
     list_display = ('name', 'body', 'post', 'created_at', 'approved')
     # Allows the admin to search for comments by name, user e-mail or body of comment
     search_fields = ['name', 'email', 'body']
+    # Allows the admin to approve and reject comments
+    actions = ['approve_comments']
+    # Changes the approval status of a comment from False to True
+    def approve_comments(self, request, queryset):
+        queryset.update(approved=True)
