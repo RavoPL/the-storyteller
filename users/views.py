@@ -11,8 +11,8 @@ def register(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            messages.success(request, f"{username}, your account has been created!")
-            return redirect('storyteller-homepage')
+            messages.success(request, f"{username}, your account has been created! Please Log In!")
+            return redirect('login-user')
         # If the form is NOT valid a registration form will be returned
     else:
         form = forms.UserRegisterForm()
