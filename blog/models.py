@@ -33,4 +33,22 @@ class Blogpost(models.Model):
     def number_of_likes(self):
         return self.likes.count()
 
-#class Comment(models.Model):
+class Comment(models.Model):
+    # Creates possibility of many comments and removes all comments if account is deleted
+    post = models.ForeignKey(Blogpost, on_delete=models.CASCADE, related_name="comments")
+    # Sets the author of the comment
+    name = models.CharField(max_length=80)
+    # Sets the e-mail of the account
+    email = models.EmailField()
+    # Sets the actual content of the comment box
+    body = models.TextField()
+    # Sets the time and date of when the comment was posted
+    created_at = models.DateTimeField(auto_now_add=True)
+    # Sets the default approval status of a comment as False
+    approved = models.BooleanField(default=False)
+    # Orders the comments according to the created_at field
+    class Meta:
+        ordering = ['created_at']
+    # Displays the body of the comment and signs it with the name of the author
+    def __str__(self):
+        return f"Comment {self.body} by {self.name}"
