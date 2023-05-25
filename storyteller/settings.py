@@ -150,3 +150,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Redirect the user to the homepage after login
 LOGIN_REDIRECT_URL = 'storyteller-homepage'
+
+# Tells Django where the login form is
+LOGIN_URL = 'login-user'
