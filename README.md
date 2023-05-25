@@ -5,7 +5,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 *The Storyteller is a Full Stack website which works as a mini blog. Users can create personal accounts and afterwards they can create, share and comment on each other's short stories. In a general sense it will be a very primitive version of WordPress or WattPad.*
 
-[LINK TO HEROKU VERSION](N/A)
+[LINK TO HEROKU VERSION (AS FAR AS I GOT)](https://the-storyteller.herokuapp.com/)
 
 ![The Storyteller on a PC](N/A)
 
@@ -65,3 +65,6 @@ After the repository is forked, you can deploy it by following these steps:
 
 * *Code Institute* for the CI Full template on GitHub
 * *Code Institute* for the deployment terminal on Heroku
+* *Code Institute* for *I Think Therefore I Blog*
+* [Basic Bootstrap Template: *Clean Blog* by Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
+* [TUTORIAL: *Django Recipes Full Stack App* by Dom Vacchiano](https://www.youtube.com/watch?v=BvbqI6eDh0c)
