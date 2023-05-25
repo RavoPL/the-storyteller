@@ -37,6 +37,14 @@
               </li>
             </ul>
           </div>
+          <div class="navbar-nav">
+            {% if user.is_authenticated %}
+              <a href="{% url 'logout-user' %}" class="nav-item nav-link">Log Out</a>
+            {% else %}
+              <a href="{% url 'login-user' %}" class="nav-item nav-link">Log In</a>
+              <a href="{% url 'register-user' %}" class="nav-item nav-link">Register</a>
+            {% endif %}
+          </div>
         </div>
       </nav>
     <!-- Content Section -->
