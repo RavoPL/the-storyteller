@@ -9,6 +9,70 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 ![The Storyteller on a PC](N/A)
 
+## Contents
+1. [User Experience](#user-experience)
+2. [Design](#design)
+3. [Data Models](#data-models)
+4. [Features](#features)
+5. [Technologies Used](#technologies-used)
+6. [Testing and Validation](#testing-and-validation)
+6. [Known Bugs](#known-bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+
+## User Experience
+
+For the purpose of this project I have created a list of fitting user and admin stories to serve as a design guide in creating this webpage. *The Storyteller* is a mini blog webpage for sharing short stories and, as such, I based it on the Code Institute project of *I Think Therefore I Blog* given the similar theme. I've come up with the following user and admin stories thus far:
+
+### Admin Stories
+
+N/A
+
+### User Stories
+
+N/A
+
+## Design
+
+N/A
+
+## Features
+
+N/A
+
+## Technologies Used
+
+### Languages
+
+* HTML 5
+* CSS 3
+* Python 3
+* JavaScript
+
+### Tools and Websites
+
+* Git *for version control*
+* GitHub *to store code and deploy the website*
+* GitPod *as an IDE to build the project and edit the code*
+* Django *as framework to develop the project*
+* Heroku *to deploy the project and host it*
+* Bootstrap *to access HTML design templates*
+* Crispy Forms *to access and display premade forms on the website*
+* Fontawesome *to access free icons*
+* GoogleFonts *to access different font styles*
+* Django Summernote *for visualization of post creation and edits*
+* W3C *to validate HTML and CSS code*
+* CI Python Linter *to validate Python code*
+* JShint *to validate JavaScript code*
+
+## Testing and Validation
+
+N/A
+
+## Known Bugs
+
+N/A
+
 ## Deployment
 
 ### GitHub
@@ -20,7 +84,7 @@ You can *deploy the repository* on GitHub by following these steps:
 1. In your GitHub repository navigate to the *Settings* tab
 2. In the menu on the left hand side select *Pages*
 3. For the source of your repo select *branch: main*
-4. After the webpage refreshes, you will see a ribbon on the top saying: *"Your site is published at https://ravopl.github.io/arcade-terminal/"*
+4. After the webpage refreshes, you will see a ribbon on the top saying: *"Your site is published at https://ravopl.github.io/the-storyteller/"*
 
 You can *fork the repository* by following these steps:
 
@@ -67,4 +131,4 @@ After the repository is forked, you can deploy it by following these steps:
 * *Code Institute* for the deployment terminal on Heroku
 * *Code Institute* for *I Think Therefore I Blog*
 * [Basic Bootstrap Template: *Clean Blog* by Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
-* [TUTORIAL: *Django Recipes Full Stack App* by Dom Vacchiano](https://www.youtube.com/watch?v=BvbqI6eDh0c)
+* [TUTORIAL: *Django Recipes Full Stack App* by Dom Vacchiano](https://www.youtube.com/watch?v=w7EJu9Gd5Ns&list=PLQbt1tI_yQHg5HYpdUqit1wkc4BOPTkpx)

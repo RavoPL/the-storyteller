@@ -32,7 +32,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['the-storyteller.herokuapp.com', 'localhost', '8000-ravopl-thestoryteller-ayw8hpwil2t.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['the-storyteller.herokuapp.com', 'localhost', '8000-ravopl-thestoryteller-ayw8hpwil2t.ws-eu105.gitpod.io', '8000-ravopl-thestoryteller-ayw8hpwil2t.ws-eu106.gitpod.io']
 
 
 # Application definition
