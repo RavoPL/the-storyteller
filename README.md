@@ -5,7 +5,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 *The Storyteller is a Full Stack website which works as a mini blog. Users can create personal accounts and afterwards they can create, share and comment on each other's short stories. In a general sense it will be a very primitive version of WordPress or WattPad.*
 
-[LINK TO HEROKU VERSION (AS FAR AS I GOT)](https://the-storyteller.herokuapp.com/)
+[LINK TO HEROKU VERSION](https://the-storyteller.herokuapp.com/)
 
 ![The Storyteller on a PC](N/A)
 
@@ -26,11 +26,23 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 ### Admin Stories
 
-N/A
+* As a **site admin** I can **create, read, update and delete posts** so that **I can manage the content of the entire website**.
+* As a **site admin** I can **create drafts** so that **I can finish creating the content at a later stage**.
+* As a **site admin** I can **approve or deny user comments** so that **I can filter out objectionable comments**.
+
 
 ### User Stories
 
-N/A
+* As a **site user** I can **register for a new account** so that **I can use the website's full functionality**.
+* As a **site user** I can **log in to my account**.
+* As a **site user** I can **log out of my account**.
+* As a **site user** I can **click on a post** so that **I can read the full text**.
+* As a **site user** I can **like or unlike** a post so that **I can interact with the content other users have created**.
+* As a **site user** I can **view the comments under a post** so that **I can read the feedback other users have shared**.
+* As a **site user** I can **comment under a post** so that **I can share my own feedback under other users' content**.
+* As a **site user** I can **view a paginated list of blog posts** so that **I can easily select a post I want to view**.
+* As a **site user** I can **view a list of blog posts** so that **I can view a post**.
+* As a **site user** I can **view the number of likes on each post** so that **I can see which short stories people enjoy the most**.
 
 ## Design
 
