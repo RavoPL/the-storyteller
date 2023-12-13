@@ -82,8 +82,8 @@ class PostLike(View):
 #     }
 #     return render(request, "blog/homepage.html", context)
 
-# def aboutpage(request):
-#     return render(request, "blog/aboutpage.html", {'title': 'About Page'})
+def aboutpage(request):
+    return render(request, "aboutpage.html", {'title': 'About Page'})
 
 # def contactpage(request):
 #     return render(request, "blog/contactpage.html", {'title': 'Contact Page'})
