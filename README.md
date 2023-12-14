@@ -10,9 +10,16 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 ![The Storyteller on a PC](N/A)
 
 ## Contents
-1. [User Experience](#user-experience)
-2. [Design](#design)
-3. [Data Models](#data-models)
+1. [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+       - [Admin Stories](#admin-stories)
+       - [User Stories](#user-stories)
+3. [Design](#design)
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
 6. [Testing and Validation](#testing-and-validation)
@@ -20,18 +27,48 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 8. [Deployment](#deployment)
 9. [Credits](#credits)
 
+## Project Goals
+
+### User Goals
+
+* Easily navigate across a clean user interface.
+* Read highly engaging short stories.
+* Like existing stories.
+* Comment on existing stories.
+
+### Site Owner Goals
+
+* Facilitate the existence of a creative environment where authors can share stories with readers.
+* Promote user engagement by allowing users to like and comment on stories.
+* Promote creativity by reaching out to up and coming writers of various genres.
+
 ## User Experience
+
+### Target Audience
+
+* Authors of short stories and fanfictions wanting to publish their work and have it received by readers.
+* Readers who want to read short stories and engage with the material by liking and commenting.
+
+### User Requirements and Expectations
+
+* A well structured, user-friendly and efficient webpage.
+* Simple and intuitive navigation system.
+* A glitchless experience with features that work properly.
+* An interactive environment where users can rate short stories and leave comments.
+* A level of accessibility for students and new users with disabilities.
+
+### User Stories
 
 For the purpose of this project I have created a list of fitting user and admin stories to serve as a design guide in creating this webpage. *The Storyteller* is a mini blog webpage for sharing short stories and, as such, I based it on the Code Institute project of *I Think Therefore I Blog* given the similar theme. I've come up with the following user and admin stories thus far:
 
-### Admin Stories
+#### Admin Stories
 
 * As a **site admin** I can **create, read, update and delete posts** so that **I can manage the content of the entire website**.
 * As a **site admin** I can **create drafts** so that **I can finish creating the content at a later stage**.
 * As a **site admin** I can **approve or deny user comments** so that **I can filter out objectionable comments**.
 
 
-### User Stories
+#### User Stories
 
 * As a **site user** I can **register for a new account** so that **I can use the website's full functionality**.
 * As a **site user** I can **log in to my account**.
