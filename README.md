@@ -101,11 +101,17 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 ### Design Choices
 
-N/A
+The webpage was designed with the concept of a writer's blog in mind, hence I decided to call it *"The Storyteller"* in order to elicit a certain image of a cozy campfire and an elderly, wise gentleman with a smoking pipe. The website is meant to facilitate the posting of stories from different authors by the Admin, which are then published on the home page and can be interacted with by readers. The chosen artistic direction is meant to be clean, organized and easily navigable. The content of the webpage is neatly divided between collapsible buttons in the case of mobile view and interactive buttons in the case of widescreen view.
 
 ### Colour and Fonts
 
-N/A
+![Image of Coolors Color Wheel](media/others/colourpalette.jpg)
+
+Colour tones associated with classic typewriters were chosen as basis for the colour palette of the webpage. As such, the main colours are the natural and basic contrast of dark grey and white to symbolize black letters upon white parchment. The complimentary colours chosen were neutral greys and a light blue, almost turqouise highlight for mouse hover. My intent was to bring the readers back to a simpler time almost a decade and a half ago now, when the internet was still in its developing stages and was populated mostly by amateur websites, far away from the monopoly of large corporations. This visual style is a nostalgic callback to my time as a child when I would spend evenings typing short stories and post them to my Wordpress. At the same time however I made use of modern UI/UX design solutions in order to provide a visually pleasing, clear and usable webpage.
+
+For the heading and menu fonts I chose *"Lora"* backed up by *"Helvetica Neue"* because they effectively compliment one another and are very clean.
+For the main heading fonts I chose *"Open Sans"* backed up by *"Helvetica Neue"* because the fonts are pleasing to the eye, soft and rounded.
+*Arial* and *Sans-Serif* were chosen as the emergency backup fonts in case the selected ones refuse to load because they're basic fonts that should display without any issues on all devices and software.
 
 ### Structure
 
@@ -152,6 +158,7 @@ N/A
 * Crispy Forms *to access and display premade forms on the website*
 * Fontawesome *to access free icons*
 * GoogleFonts *to access different font styles*
+* Coolors *to generate colour palette for ReadMe*
 * Django Summernote *for visualization of post creation and edits*
 * W3C *to validate HTML and CSS code*
 * CI Python Linter *to validate Python code*

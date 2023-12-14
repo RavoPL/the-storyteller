@@ -11,10 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: Lora, Helvetica Neue, Arial, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -32,7 +30,6 @@
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #212529;
   --bs-link-hover-color: #0085A1;
-  --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -73,7 +70,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   line-height: 1.2;
 }
@@ -168,7 +165,7 @@ header.masthead {
     line-height: 1.1;
     display: block;
     margin-top: 0.625rem;
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
     font-size: 2.25rem;
@@ -182,13 +179,13 @@ header.masthead {
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0.75rem 0 2rem;
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   }
   header.masthead .post-heading .meta {
     font-size: 1.25rem;
     font-weight: 300;
     font-style: italic;
-    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Lora", "Helvetica Neue", Arial, sans-serif;
   }
   header.masthead .post-heading .meta a {
     color: #fff;
