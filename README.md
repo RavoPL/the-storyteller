@@ -182,7 +182,38 @@ N/A
 
 #### Admin Stories Testing
 
-WIP
+<br>
+
+1. *As a site admin I can create, read, update and delete posts so that I can manage the content of the entire website.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Create Posts | A post can be created from admin view | Entered admin view and created a post | Works as Intended |
+| Read Posts | A post can be read from admin view | Clicked an existing post in admin view and read its contents | Works as Intended |
+| Update Posts | A post can be updated from admin view | Clicked an existing post in admin view and updated its contents | Works as Intended |
+| Delete Posts | A post can be deleted in admin view | An existing test post was deleted in admin view | Works as Intended |
+
+<br>
+
+<br>
+
+2. *As a site admin I can create drafts so that I can finish creating the content at a later stage.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Create Drafts | A draft can be created for a post | A test post was set to 'Draft' instead of 'Published' | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site admin I can approve or deny user comments so that I can filter out objectionable comments.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Approve and Deny Comments | Comment approved or denied | Approved test comment and denied test comment | Works as Intended |
+
+<br>
 
 #### User Stories Testing
 
