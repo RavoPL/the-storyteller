@@ -196,6 +196,96 @@ WIP
 
 <br>
 
+<br>
+
+2. *As a site user I can log in to my account.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Log In | User Logs into an existing account | Clicked on 'Login' and filled out the form | Works as Intended |
+
+<br>
+
+<br>
+
+3. *As a site user I can log out of my account.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Log Out | User Logs out of an existing account and returns to home page | Clicked on 'Logout' | Works as Intended |
+
+<br>
+
+<br>
+
+4. *As a site user I can click on a post so that I can read the full text.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Read Post | User can access any post | Clicked on a short story | Works as Intended |
+
+<br>
+
+<br>
+
+5. *As a site user I can like or unlike a post so that I can interact with the content other users have created.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Like and Unlike Post | User can like and unlike a post | Clicked the Heart symbol under a post | Works as Intended |
+
+<br>
+
+<br>
+
+6. *As a site user I can view the comments under a post so that I can read the feedback other users have shared.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| View Comments | User can read approved comments under a post | Clicked on a short story | Works as Intended |
+
+<br>
+
+<br>
+
+7. *As a site user I can comment under a post so that I can share my own feedback under other users' content.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Comment | User can submit a comment under a post | Filled out the comment box and pressed 'Submit' | Works as Intended |
+
+<br>
+
+<br>
+
+8. *As a site user I can view a paginated list of blog posts so that I can easily select a post I want to view.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Paginated Posts | User can view all the posts currently on the site | Entered Home Page | Works as Intended |
+
+<br>
+
+<br>
+
+9. *As a site user I can view a list of blog posts so that I can view a post.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Posts | User can view all the posts currently on the site | Entered Home Page | Works as Intended |
+
+<br>
+
+<br>
+
+10. *As a site user I can view the number of likes on each post so that I can see which short stories people enjoy the most.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Number of Likes | User can view current like number on the main page and each article page | Checked Home Page and Article Page | Works as Intended |
+
+<br>
+
 ## Known Bugs
 
 N/A
