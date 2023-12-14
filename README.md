@@ -20,8 +20,14 @@ Developed by **Dorian Wolarz**, a Code Institute Student
        - [Admin Stories](#admin-stories)
        - [User Stories](#user-stories)
 3. [Design](#design)
+    - [Design Choices](#design-choices)
+    - [Colour and Fonts](#colour-and-fonts)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Tools and Websites](#tools-and-websites)
 6. [Testing and Validation](#testing-and-validation)
 6. [Known Bugs](#known-bugs)
 8. [Deployment](#deployment)
@@ -83,7 +89,35 @@ For the purpose of this project I have created a list of fitting user and admin 
 
 ## Design
 
+### Design Choices
+
 N/A
+
+### Colour and Fonts
+
+N/A
+
+### Structure
+
+The website is structured in a user friendly way that makes navigation of its contents extremely easy and makes it pleasing to the eye. The *Home Page* serves as the central hub of the design, allowing for quick access to other sections of the project through fully interactive buttons. More details on the project and its aims are stored in the *About* page. The users can *Register*, *Login* and *Logout*. Each article and short story is stored in a separate page. As such, the website consists of de facto six separate pages:
+* **The Home Page**, with its selection of buttons and a collapsible menu for mobile users.
+* **About Page**, with its short writeup on the project and its goals.
+* **Register Page**, with its easy-to-use registration system for new users.
+* **Login Page**, with its username and password login options for existing users.
+* **Logout Page**, with its easy-to-use logout option for logged in, existing users.
+* **Article Page**, which displays each article and short story in a separate view.
+
+### Wireframes
+
+<details>
+  <summary>Personal Computer View</summary>
+  <img src="media/others/pchomepage.jpg" alt="Wireframe of PC Home Page" title="PC Home Page Wireframe">
+</details>
+
+<details>
+  <summary>Mobile View</summary>
+  <img src="media/others/mobilehomepage.jpg" alt="Wireframe of Mobile Home Page" title="Mobile Home Page Wireframe">
+</details>
 
 ## Features
 
