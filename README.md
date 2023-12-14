@@ -35,6 +35,8 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Manual Testing of Admin and User Stories](#manual-testing-of-admin-and-user-stories)
+       - [Admin Stories Testing](#admin-stories-testing)
+       - [User Stories Testing](#user-stories-testing)
 7. [Known Bugs](#known-bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
@@ -178,7 +180,21 @@ N/A
 
 ### Manual Testing of Admin and User Stories
 
+#### Admin Stories Testing
+
 WIP
+
+#### User Stories Testing
+
+<br>
+
+1. *As a site user I can register for a new account so that I can use the website's full functionality*.
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Registration | User Registrates an Account | Clicked on 'Register' and filled out the form | Works as Intended |
+
+<br>
 
 ## Known Bugs
 
