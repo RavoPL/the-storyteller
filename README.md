@@ -29,9 +29,17 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [Languages](#languages)
     - [Tools and Websites](#tools-and-websites)
 6. [Testing and Validation](#testing-and-validation)
-6. [Known Bugs](#known-bugs)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
+    - [Python Validation](#python-validation)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Manual Testing of Admin and User Stories](#manual-testing-of-admin-and-user-stories)
+7. [Known Bugs](#known-bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
+    - [Code and Assets](#code-and-assets)
+    - [Media](#media)
 
 ## Project Goals
 
@@ -130,7 +138,6 @@ N/A
 * HTML 5
 * CSS 3
 * Python 3
-* JavaScript
 
 ### Tools and Websites
 
@@ -146,11 +153,32 @@ N/A
 * Django Summernote *for visualization of post creation and edits*
 * W3C *to validate HTML and CSS code*
 * CI Python Linter *to validate Python code*
-* JShint *to validate JavaScript code*
 
 ## Testing and Validation
 
+### HTML Validation
+
 N/A
+
+### CSS Validation
+
+N/A
+
+### Python Validation
+
+N/A
+
+### Accessibility
+
+N/A
+
+### Performance
+
+N/A
+
+### Manual Testing of Admin and User Stories
+
+WIP
 
 ## Known Bugs
 
