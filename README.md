@@ -170,22 +170,67 @@ Working on a Custom Model to Allow User to Submit Stories (*BROKE THE WHOLE PROJ
 * Coolors *to generate colour palette for ReadMe*
 * Lucidchart *to plan out a diagram of user stories*
 * Django Summernote *for visualization of post creation and edits*
-* W3C *to validate HTML and CSS code*
-* CI Python Linter *to validate Python code*
+* FreeFormatter HTML Checker *to validate HTML*
+* W3C CSS Checker *to validate CSS*
+* ExtendClass Python Syntax Checker *to validate Python code*
 
 ## Testing and Validation
 
 ### HTML Validation
 
-N/A
+<details>
+  <summary>Base Validation</summary>
+  <img src="static/media/others/html_base_validation.png" alt="Base Validation" title="Base HTML Validation">
+</details>
+
+<details>
+  <summary>About Us Validation</summary>
+  <img src="static/media/others/html_aboutus_validation.png" alt="About Us Validation" title="About Us HTML Validation">
+</details>
+
+<details>
+  <summary>Index Validation</summary>
+  <img src="static/media/others/html_index_validation.png" alt="Index Validation" title="Index HTML Validation">
+</details>
+
+<details>
+  <summary>Post Detail Validation</summary>
+  <img src="static/media/others/html_postdetail_validation.png" alt="Post Detail Validation" title="Post Detail HTML Validation">
+</details>
 
 ### CSS Validation
 
-N/A
+<details>
+  <summary>CSS Validation</summary>
+  <img src="static/media/others/css_validation.png" alt="CSS Validation" title="CSS Validation">
+</details>
 
 ### Python Validation
 
-N/A
+<details>
+  <summary>admin.py Validation</summary>
+  <img src="static/media/others/python_admin_validation.png" alt="Admin Validation" title="Admin Python Validation">
+</details>
+
+<details>
+  <summary>forms.py Validation</summary>
+  <img src="static/media/others/python_forms_validation.png" alt="Forms Validation" title="Forms Python Validation">
+</details>
+
+<details>
+  <summary>models.py Validation</summary>
+  <img src="static/media/others/python_models_validation.png" alt="Models Validation" title="Models Python Validation">
+</details>
+
+<details>
+  <summary>urls.py Validation</summary>
+  <img src="static/media/others/python_urls_validation.png" alt="Urls Validation" title="Urls Python Validation">
+</details>
+
+<details>
+  <summary>views.py Validation</summary>
+  <img src="static/media/others/python_view_validation.png" alt="Views Validation" title="Views Python Validation">
+</details>
 
 ### Accessibility
 
