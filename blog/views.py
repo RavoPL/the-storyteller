@@ -6,9 +6,15 @@ from .forms import CommentForm, SubmissionForm
 
 # Create your views here.
 
+class PostList(generic.ListView):
+    model = Post
+    queryset = Post.objects.filter(status=1).order_by("-created_on")
+    template_name = "index.html"
+    paginate_by = 6
+
 class SubmissionView(View):
     def get(self, request, slug, *args, **kwargs):
-        queryset = Post.objects.filter(status=1)
+        queryset = Post.objets.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
 
         return render(
@@ -40,11 +46,7 @@ class SubmissionView(View):
             },
         )
 
-class PostList(generic.ListView):
-    model = Post
-    queryset = Post.objects.filter(status=1).order_by("-created_on")
-    template_name = "index.html"
-    paginate_by = 6
+        return HttpResponseRedirect(reverse('base.html', args=[slug]))
 
 class PostDetail(View):
 
@@ -102,7 +104,7 @@ class PostDetail(View):
             {
                 "post": post,
                 "comments": comments,
-                "commented": True,
+                "commented": True if comment_form.is_valid() else False,
                 "comment_form": comment_form,
                 "submission_form": submission_form,
                 "liked": liked

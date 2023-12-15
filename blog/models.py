@@ -57,6 +57,8 @@ class Comment(models.Model):
 class Submission(models.Model):
     # Creates possibility of sending more than one short story and removes all submitted stories if account is deleted
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="submissions", null=True)
+    # Sets the slug of the short story
+    slug = models.SlugField(max_length=200, unique=True)
     # Sets the author of the comment
     name = models.CharField(max_length=80, default='Anonymous')
     # Sets the title of the short story
@@ -65,4 +67,4 @@ class Submission(models.Model):
     body = models.TextField()
     # Sets the name of the data models to their respective title
     def __str__(self):
-        return self.subject
+        return self.title
