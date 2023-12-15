@@ -146,7 +146,7 @@ The website is structured in a user friendly way that makes navigation of its co
 
 ## Features
 
-N/A
+Working on a Custom Model to Allow User to Submit Stories (*BROKE THE WHOLE PROJECT, SLUG ERROR WITH MIGRATIONS*)
 
 ## Technologies Used
 
@@ -238,7 +238,7 @@ N/A
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Approve and Deny Stories | Story approved or denied | Approved short story and denied short story | Works as Intended |
+| Approve and Deny Stories | Story approved or denied | Approved short story and denied short story | **DOES NOT WORK** |
 
 <br>
 
@@ -350,13 +350,13 @@ N/A
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| Submit Short Story | User can submit a short story from a form above the footer | Filled out the form and pressed 'Submit' | Works as Intended |
+| Submit Short Story | User can submit a short story from a form above the footer | Filled out the form and pressed 'Submit' | **DOES NOT WORK** |
 
 <br>
 
 ## Known Bugs
 
-N/A
+Slug Error with Migrations, not sure how to fix it, can't make most recent migration
 
 ## Deployment
 
