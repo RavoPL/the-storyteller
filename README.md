@@ -105,7 +105,7 @@ The webpage was designed with the concept of a writer's blog in mind, hence I de
 
 ### Colour and Fonts
 
-![Image of Coolors Color Wheel](media/others/colourpalette.jpg)
+![Image of Coolors Color Wheel](static/media/others/colourpalette.jpg)
 
 Colour tones associated with classic typewriters were chosen as basis for the colour palette of the webpage. As such, the main colours are the natural and basic contrast of dark grey and white to symbolize black letters upon white parchment. The complimentary colours chosen were neutral greys and a light blue, almost turqouise highlight for mouse hover. My intent was to bring the readers back to a simpler time almost a decade and a half ago now, when the internet was still in its developing stages and was populated mostly by amateur websites, far away from the monopoly of large corporations. This visual style is a nostalgic callback to my time as a child when I would spend evenings typing short stories and post them to my Wordpress. At the same time however I made use of modern UI/UX design solutions in order to provide a visually pleasing, clear and usable webpage.
 
@@ -127,12 +127,12 @@ The website is structured in a user friendly way that makes navigation of its co
 
 <details>
   <summary>Personal Computer View</summary>
-  <img src="media/others/pchomepage.jpg" alt="Wireframe of PC Home Page" title="PC Home Page Wireframe">
+  <img src="static/media/others/pchomepage.jpg" alt="Wireframe of PC Home Page" title="PC Home Page Wireframe">
 </details>
 
 <details>
   <summary>Mobile View</summary>
-  <img src="media/others/mobilehomepage.jpg" alt="Wireframe of Mobile Home Page" title="Mobile Home Page Wireframe">
+  <img src="static/media/others/mobilehomepage.jpg" alt="Wireframe of Mobile Home Page" title="Mobile Home Page Wireframe">
 </details>
 
 ## Features
