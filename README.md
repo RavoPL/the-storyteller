@@ -51,12 +51,14 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 * Read highly engaging short stories.
 * Like existing stories.
 * Comment on existing stories.
+* Submit a Short Story for review.
 
 ### Site Owner Goals
 
 * Facilitate the existence of a creative environment where authors can share stories with readers.
 * Promote user engagement by allowing users to like and comment on stories.
 * Promote creativity by reaching out to up and coming writers of various genres.
+* Acquire new talent and content by reviewing submitted stories.
 
 ## User Experience
 
@@ -82,6 +84,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site admin** I can **create, read, update and delete posts** so that **I can manage the content of the entire website**.
 * As a **site admin** I can **create drafts** so that **I can finish creating the content at a later stage**.
 * As a **site admin** I can **approve or deny user comments** so that **I can filter out objectionable comments**.
+* As a **site admin** I can **approve or deny a short story** so that **I can filter aspiring writers according to their skill and creativity**.
 
 
 #### User Stories
@@ -96,6 +99,7 @@ For the purpose of this project I have created a list of fitting user and admin 
 * As a **site user** I can **view a paginated list of blog posts** so that **I can easily select a post I want to view**.
 * As a **site user** I can **view a list of blog posts** so that **I can view a post**.
 * As a **site user** I can **view the number of likes on each post** so that **I can see which short stories people enjoy the most**.
+* As a **site user** I can **submit a short story for review** so that **I can contribute to the website's content**.
 
 ## Design
 
@@ -135,6 +139,11 @@ The website is structured in a user friendly way that makes navigation of its co
   <img src="static/media/others/mobilehomepage.jpg" alt="Wireframe of Mobile Home Page" title="Mobile Home Page Wireframe">
 </details>
 
+<details>
+  <summary>User Stories Flow Chart</summary>
+  <img src="static/media/others/userstoriesplan.jpeg" alt="Flow Chart of User Stories" title="User Stories Flow Chart">
+</details>
+
 ## Features
 
 N/A
@@ -159,6 +168,7 @@ N/A
 * Fontawesome *to access free icons*
 * GoogleFonts *to access different font styles*
 * Coolors *to generate colour palette for ReadMe*
+* Lucidchart *to plan out a diagram of user stories*
 * Django Summernote *for visualization of post creation and edits*
 * W3C *to validate HTML and CSS code*
 * CI Python Linter *to validate Python code*
@@ -219,6 +229,16 @@ N/A
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
 | Approve and Deny Comments | Comment approved or denied | Approved test comment and denied test comment | Works as Intended |
+
+<br>
+
+<br>
+
+4. *As a site admin I can approve or deny a short story so that I can filter aspiring writers according to their skill and creativity.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Approve and Deny Stories | Story approved or denied | Approved short story and denied short story | Works as Intended |
 
 <br>
 
@@ -321,6 +341,16 @@ N/A
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
 | Number of Likes | User can view current like number on the main page and each article page | Checked Home Page and Article Page | Works as Intended |
+
+<br>
+
+<br>
+
+11. *As a site user I can submit a short story for review so that I can contribute to the website's content.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Submit Short Story | User can submit a short story from a form above the footer | Filled out the form and pressed 'Submit' | Works as Intended |
 
 <br>
 

@@ -103,21 +103,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
-                {% if commented %}
-                <div class="alert alert-success" role="alert">
-                    Your Short Story was submitted for review!
-                </div>
-                {% else %}
-                {% if user.is_authenticated %}
-                <h3>Submit a Short Story:</h3>
-                <p>Posting as: {{ user.username }}</p>
-                <form method="post" style="margin-top: 1.3em;">
-                    {{ submission_form | crispy }}
-                    {% csrf_token %}
+                <div class="card-body">
+                    {% if commented %}
+                    <div class="alert alert-success" role="alert">
+                        Your Short Story was submitted for review!
+                    </div>
+                    {% else %}
+                    {% if user.is_authenticated %}
+                    <h3>Submit a Short Story:</h3>
+                    <p>Posting as: {{ user.username }}</p>
+                    <form method="post" style="margin-top: 1.3em;">
+                        {{ submission_form | crispy }}
+                        {% csrf_token %}
                     <button type="submit" class="btn btn-signup btn-lg">Submit</button>
-                </form>
-                {% endif %}
-                {% endif %}
+                    </form>
+                    {% endif %}
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
