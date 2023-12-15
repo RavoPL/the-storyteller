@@ -32,8 +32,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Python Validation](#python-validation)
-    - [Accessibility](#accessibility)
-    - [Performance](#performance)
+    - [Accessibility and Performance](#accessibility-and-performance)
     - [Manual Testing of Admin and User Stories](#manual-testing-of-admin-and-user-stories)
        - [Admin Stories Testing](#admin-stories-testing)
        - [User Stories Testing](#user-stories-testing)
@@ -232,13 +231,17 @@ Working on a Custom Model to Allow User to Submit Stories (*BROKE THE WHOLE PROJ
   <img src="static/media/others/python_view_validation.png" alt="Views Validation" title="Views Python Validation">
 </details>
 
-### Accessibility
+### Accessibility and Performance
 
-N/A
+<details>
+  <summary>Main Page</summary>
+  <img src="static/media/others/main_accperf.png" alt="Main Page Acc and Perf" title="Main Accessibility and Performance">
+</details>
 
-### Performance
-
-N/A
+<details>
+  <summary>About Us</summary>
+  <img src="static/media/others/aboutus_accperf.png" alt="About Us Acc and Perf" title="About Us Accessibility and Performance">
+</details>
 
 ### Manual Testing of Admin and User Stories
 
@@ -402,6 +405,7 @@ N/A
 ## Known Bugs
 
 Slug Error with Migrations, not sure how to fix it, can't make most recent migration
+This error also caused the /admin panel to completely break down and made it inaccessible if DEBUG is turned off
 
 ## Deployment
 
