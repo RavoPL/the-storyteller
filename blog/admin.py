@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post, Comment
+from .models import Post, Comment, Submission
 from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
@@ -29,4 +29,18 @@ class CommentAdmin(admin.ModelAdmin):
     actions = ['approve_comments']
     # Changes the approval status of a comment from False to True
     def approve_comments(self, request, queryset):
+        queryset.update(approved=True)
+
+@admin.register(Submission)
+class SubmissionAdmin(admin.ModelAdmin):
+    # Allows the admin to filter through dates and approval status of short story submissions
+    list_filter = ('approved', 'created_on')
+    # Displays the user name, submission body, date of submission and approval status
+    list_display = ('author', 'title', 'body', 'created_on', 'approved')
+    # Allows the admin to search for short stories by name of author and their title
+    search_fields = ['author', 'title']
+    # Allows the admin to approve and reject short stories
+    actions = ['approve_submissions']
+    # Changes the approval status of a short story from False to True
+    def approve_submissions(self, request, queryset):
         queryset.update(approved=True)
