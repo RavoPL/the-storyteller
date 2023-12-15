@@ -55,16 +55,14 @@ class Comment(models.Model):
         return f"Comment {self.body} by {self.name}"
 
 class Submission(models.Model):
-    # Sets the author of the story submission and deletes all his submitted stories if account is deleted
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    # Creates possibility of sending more than one short story and removes all submitted stories if account is deleted
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="submissions", null=True)
+    # Sets the author of the comment
+    name = models.CharField(max_length=80, default='Anonymous')
     # Sets the title of the short story
     title = models.CharField(max_length=200)
     # Sets the content of the short story submission
     body = models.TextField()
-    # Sets the default approval status of a short story as False because it needs to be reviewed by the Admin
-    approved = models.BooleanField(default=False)
-    # Sets the time and date of when the short story was posted
-    created_on = models.DateTimeField(auto_now_add=True)
     # Sets the name of the data models to their respective title
     def __str__(self):
         return self.subject

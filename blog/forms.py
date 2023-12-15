@@ -10,4 +10,4 @@ class CommentForm(forms.ModelForm):
 class SubmissionForm(forms.ModelForm):
     class Meta:
         model = Submission
-        fields = ('body',)
+        fields = ('name', 'title', 'body',)

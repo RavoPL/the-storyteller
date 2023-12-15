@@ -22,7 +22,7 @@ class SubmissionView(View):
     def post(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
-        
+            
         submission_form = SubmissionForm(data=request.POST)
         if submission_form.is_valid():
             submission_form.instance.name = request.user.username
@@ -31,7 +31,7 @@ class SubmissionView(View):
             submission.save()
         else:
             submission_form = SubmissionForm()
-        
+            
         return render(
             request,
             "base.html",
@@ -64,6 +64,7 @@ class PostDetail(View):
                 "comments": comments,
                 "liked": liked,
                 "comment_form": CommentForm(),
+                "submission_form": SubmissionForm(),
             },
         )
     
@@ -85,6 +86,15 @@ class PostDetail(View):
             comment.save()
         else:
             comment_form = CommentForm()
+        
+        submission_form = SubmissionForm(data=request.POST)
+        if submission_form.is_valid():
+            submission_form.instance.name = request.user.username
+            submission = submission_form.save(commit=False)
+            submission.post = post
+            submission.save()
+        else:
+            submission_form = SubmissionForm()
 
         return render(
             request,
@@ -94,6 +104,7 @@ class PostDetail(View):
                 "comments": comments,
                 "commented": True,
                 "comment_form": comment_form,
+                "submission_form": submission_form,
                 "liked": liked
             },
         )
