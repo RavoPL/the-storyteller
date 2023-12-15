@@ -387,6 +387,7 @@ After the repository is forked, you can deploy it by following these steps:
 * *Code Institute* for the CI Full template on GitHub
 * *Code Institute* for the deployment terminal on Heroku
 * *Code Institute* for *I Think Therefore I Blog*
+* *Help with some code issues by my brother in faith Hassan Ali*
 * [Basic Bootstrap Template (EDITED BY ME): *Clean Blog* by Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
 * [About Us Bootstrap Template (EDITED BY ME): *Bootstrap 5 About Us Page Section* by Bootstrap Brain](https://bootstrapbrain.com/component/bootstrap-about-us-page-section/)
 * [TUTORIAL: *Django Recipes Full Stack App* by Dom Vacchiano](https://www.youtube.com/watch?v=w7EJu9Gd5Ns&list=PLQbt1tI_yQHg5HYpdUqit1wkc4BOPTkpx)
@@ -394,3 +395,4 @@ After the repository is forked, you can deploy it by following these steps:
 ### Media
 
 * [Typewriter Image by *American Farmhouse Style*](https://americanfarmhousestyle.com/wp-content/uploads/2021/10/IMG_1252.jpg)
+* [Typewriter Logo Background by *BoostMeUp*](https://boostmeup.com/blog/get-typewriter-text-effect-on-instagram-stories/)
