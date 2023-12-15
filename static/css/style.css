@@ -34,7 +34,7 @@
 }
 
 .bgImgCenter{
-    background-image: url('the-storyteller/media/img/home-bg.jpg');
+    background-image: url('../media/img/home-bg.jpg');
     background-repeat: no-repeat;
     background-position: center; 
     position: relative;
